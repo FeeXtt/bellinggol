@@ -17,13 +17,18 @@ html {
     margin: 0 auto;
     transition: .3s ease;
     cursor: pointer;
+    
+}
+#bellingham:active{
+    
+    transform: scale(1.1);
 }
 
 #container {
     position: absolute;
     width: 30%;
     margin: 0 auto;
-    bottom: 0;
+    bottom: 30px;
     left: 35%;
     margin-top: 5em;
 }
@@ -34,6 +39,3 @@ html {
     text-align: center;
 }
 
-#cookie:hover {
-    transform: scale(1.1);
-}
